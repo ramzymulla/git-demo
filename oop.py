@@ -33,5 +33,7 @@ class Snek(Pet):
     def vocalize(self):
 	print("Hisssssssssssssssss")    
 
-
+class Parrot(Pet):
+    def vocalize(self,repeat="Squack"):
+	print(repeat)
 
