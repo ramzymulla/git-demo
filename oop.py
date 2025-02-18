@@ -8,7 +8,7 @@ class Pet:
         self._owner = None
 
     def vocalize(self):
-        pass
+        print('*animal sounds*')
 
     def get_adopted(self,thing):
         self.vocalize()
