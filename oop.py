@@ -41,3 +41,6 @@ class Parrot(Pet):
     def vocalize(self,repeat="Squack"):
 	print(repeat)
 
+class Hamster(Pet):
+    def vocalize(Pet):
+	print("*hamster sounds*")
