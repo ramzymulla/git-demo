@@ -29,6 +29,8 @@ class Dog(Pet):
     def vocalize(self):
         print("Woof")
 
-    
+class Snek(Pet):
+    def vocalize(self):
+	print("Hisssssssssssssssss")    
 
 
