@@ -17,6 +17,10 @@ class Pet:
     def i_love(self, thing):
         print(f'I love {thing}!')
 
+    def eat(self, thing):
+	print("om nom nom")
+	self.i_love(thing)
+
 class Cat(Pet):
 
     ## Methods ##
